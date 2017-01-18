@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2015
+Project("{A6C3A82B-8746-DD69-43C0-35CFBDE118A0}") = "libcbsdk", "libcbsdk.vcxproj", "{679BE337-3F74-1608-A818-AFD7B9E06A46}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{679BE337-3F74-1608-A818-AFD7B9E06A46}.Debug|Win32.ActiveCfg = Debug|Win32
+		{679BE337-3F74-1608-A818-AFD7B9E06A46}.Debug|Win32.Build.0 = Debug|Win32
+		{679BE337-3F74-1608-A818-AFD7B9E06A46}.Release|Win32.ActiveCfg = Release|Win32
+		{679BE337-3F74-1608-A818-AFD7B9E06A46}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

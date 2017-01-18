@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="w0BO99" name="libcbsdk" projectType="dll" version="1.0.0"
+              bundleIdentifier="io.github.neuroscope.libcbsdk" includeBinaryInAppConfig="1"
+              jucerVersion="4.3.0">
+  <MAINGROUP id="OTX2zg" name="libcbsdk">
+    <GROUP id="{E526914C-1F31-97C5-F536-C408C51780C2}" name="Source">
+      <GROUP id="{79619370-69E3-7B75-E77D-32A3F51F68DD}" name="cbhwlib">
+        <FILE id="cCx6O7" name="cbhwlib.cpp" compile="1" resource="0" file="Source/cbhwlib/cbhwlib.cpp"/>
+        <FILE id="ILNeXj" name="cbhwlib.h" compile="0" resource="0" file="Source/cbhwlib/cbhwlib.h"/>
+        <FILE id="bd0tIJ" name="cbHwlibHi.cpp" compile="1" resource="0" file="Source/cbhwlib/cbHwlibHi.cpp"/>
+        <FILE id="D6dFQh" name="cbHwlibHi.h" compile="0" resource="0" file="Source/cbhwlib/cbHwlibHi.h"/>
+        <FILE id="wVFtmX" name="CCFUtils.cpp" compile="1" resource="0" file="Source/cbhwlib/CCFUtils.cpp"/>
+        <FILE id="qVXKyX" name="CCFUtils.h" compile="0" resource="0" file="Source/cbhwlib/CCFUtils.h"/>
+        <FILE id="w16ZaN" name="CCFUtilsBinary.cpp" compile="1" resource="0"
+              file="Source/cbhwlib/CCFUtilsBinary.cpp"/>
+        <FILE id="ss6ZfQ" name="CCFUtilsBinary.h" compile="0" resource="0"
+              file="Source/cbhwlib/CCFUtilsBinary.h"/>
+        <FILE id="pRKtS6" name="CCFUtilsConcurrent.cpp" compile="1" resource="0"
+              file="Source/cbhwlib/CCFUtilsConcurrent.cpp"/>
+        <FILE id="epsRyj" name="CCFUtilsConcurrent.h" compile="0" resource="0"
+              file="Source/cbhwlib/CCFUtilsConcurrent.h"/>
+        <FILE id="pcWcCP" name="CCFUtilsXml.cpp" compile="1" resource="0" file="Source/cbhwlib/CCFUtilsXml.cpp"/>
+        <FILE id="IivJnA" name="CCFUtilsXml.h" compile="0" resource="0" file="Source/cbhwlib/CCFUtilsXml.h"/>
+        <FILE id="dOuvAD" name="CCFUtilsXmlItems.cpp" compile="1" resource="0"
+              file="Source/cbhwlib/CCFUtilsXmlItems.cpp"/>
+        <FILE id="OTB22E" name="CCFUtilsXmlItems.h" compile="0" resource="0"
+              file="Source/cbhwlib/CCFUtilsXmlItems.h"/>
+        <FILE id="e1CWlz" name="CCFUtilsXmlItemsGenerate.h" compile="0" resource="0"
+              file="Source/cbhwlib/CCFUtilsXmlItemsGenerate.h"/>
+        <FILE id="JfCLtN" name="CCFUtilsXmlItemsParse.h" compile="0" resource="0"
+              file="Source/cbhwlib/CCFUtilsXmlItemsParse.h"/>
+        <FILE id="SAYJEL" name="cki_common.h" compile="0" resource="0" file="Source/cbhwlib/cki_common.h"/>
+        <FILE id="znBj10" name="CkiVersion.rc" compile="0" resource="1" file="Source/cbhwlib/CkiVersion.rc"/>
+        <FILE id="abQA3V" name="debugmacs.h" compile="0" resource="0" file="Source/cbhwlib/debugmacs.h"/>
+        <FILE id="Uwv9gV" name="InstNetwork.cpp" compile="1" resource="0" file="Source/cbhwlib/InstNetwork.cpp"/>
+        <FILE id="k4uDPF" name="InstNetwork.h" compile="0" resource="0" file="Source/cbhwlib/InstNetwork.h"/>
+        <FILE id="RK03h7" name="moc_InstNetwork.cpp" compile="1" resource="0"
+              file="Source/cbhwlib/moc_InstNetwork.cpp"/>
+        <FILE id="lCcG2b" name="StdAfx.h" compile="0" resource="0" file="Source/cbhwlib/StdAfx.h"/>
+        <FILE id="D263zI" name="XmlFile.cpp" compile="1" resource="0" file="Source/cbhwlib/XmlFile.cpp"/>
+        <FILE id="j7QMR5" name="XmlFile.h" compile="0" resource="0" file="Source/cbhwlib/XmlFile.h"/>
+        <FILE id="rtPxHj" name="XmlItem.h" compile="0" resource="0" file="Source/cbhwlib/XmlItem.h"/>
+      </GROUP>
+      <GROUP id="{6BC127CD-1BDE-D7A1-5C29-DF79A4B32895}" name="Central">
+        <FILE id="YCBpjx" name="Instrument.cpp" compile="1" resource="0" file="Source/Central/Instrument.cpp"/>
+        <FILE id="DFP1cg" name="Instrument.h" compile="0" resource="0" file="Source/Central/Instrument.h"/>
+        <FILE id="ImPK46" name="UDPsocket.cpp" compile="1" resource="0" file="Source/Central/UDPsocket.cpp"/>
+        <FILE id="uDhiiJ" name="UDPsocket.h" compile="0" resource="0" file="Source/Central/UDPsocket.h"/>
+      </GROUP>
+      <GROUP id="{FD18F712-9AC6-7714-F05C-D6EC965F5AA1}" name="CentralCommon">
+        <FILE id="VCdue9" name="BmiVersion.h" compile="0" resource="0" file="Source/CentralCommon/BmiVersion.h"/>
+      </GROUP>
+      <GROUP id="{2E89ED39-6AE5-C3CF-CAD1-1AAD937ACA27}" name="compat">
+        <FILE id="Evky4u" name="afxres.h" compile="0" resource="0" file="Source/compat/afxres.h"/>
+        <FILE id="YgH1Bv" name="stdint.h" compile="0" resource="0" file="Source/compat/stdint.h"/>
+      </GROUP>
+      <FILE id="qs2ONR" name="cbsdk.cpp" compile="1" resource="0" file="Source/cbsdk.cpp"/>
+      <FILE id="FEXOBi" name="cbsdk.h" compile="0" resource="0" file="Source/cbsdk.h"/>
+      <FILE id="mrRsMe" name="resource.h" compile="0" resource="0" file="Source/resource.h"/>
+      <FILE id="aVm9UO" name="SdkApp.h" compile="0" resource="0" file="Source/SdkApp.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="libcbsdk"/>
+        <CONFIGURATION name="Release" isDebug="0" optimisation="3" targetName="libcbsdk"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="Modules"/>
+        <MODULEPATH id="juce_events" path="Modules"/>
+        <MODULEPATH id="juce_data_structures" path="Modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+    <VS2015 targetFolder="Builds/VisualStudio2015">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="1" targetName="libcbsdk"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="0" optimisation="3" targetName="libcbsdk"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="Modules"/>
+        <MODULEPATH id="juce_events" path="Modules"/>
+        <MODULEPATH id="juce_data_structures" path="Modules"/>
+      </MODULEPATHS>
+    </VS2015>
+    <LINUX_MAKE targetFolder="Builds/LinuxMakefile" linuxExtraPkgConfig="Qt5Core Qt5Concurrent Qt5Xml"
+                extraCompilerFlags="-fPIC" extraDefs="QT_APP" extraLinkerFlags="-shared">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="libcbsdk"/>
+        <CONFIGURATION name="Release" isDebug="0" optimisation="3" targetName="libcbsdk"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="Modules"/>
+        <MODULEPATH id="juce_events" path="Modules"/>
+        <MODULEPATH id="juce_data_structures" path="Modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+  <LIVE_SETTINGS>
+    <LINUX/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
