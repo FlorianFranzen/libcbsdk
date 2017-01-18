@@ -87,7 +87,7 @@
       </MODULEPATHS>
     </VS2015>
     <LINUX_MAKE targetFolder="Builds/LinuxMakefile" linuxExtraPkgConfig="Qt5Core Qt5Concurrent Qt5Xml"
-                extraCompilerFlags="-fPIC" extraDefs="QT_APP" extraLinkerFlags="-shared">
+                extraCompilerFlags="-fPIC" extraDefs="" extraLinkerFlags="-shared">
       <CONFIGURATIONS>
         <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="libcbsdk"/>
         <CONFIGURATION name="Release" isDebug="0" optimisation="3" targetName="libcbsdk"/>

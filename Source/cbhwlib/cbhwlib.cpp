@@ -2451,24 +2451,22 @@ cbRESULT cbGetFeatureSpaceDomain(UINT32 nInstance)
 
 void cbPKT_SS_NOISE_BOUNDARY::GetAxisLengths(float afAxisLen[3]) const
 {
-    // TODO: must be implemented for non MSC
-#ifndef QT_APP
     afAxisLen[0] = sqrt(afS[0][0]*afS[0][0] + afS[0][1]*afS[0][1] + afS[0][2]*afS[0][2]);
     afAxisLen[1] = sqrt(afS[1][0]*afS[1][0] + afS[1][1]*afS[1][1] + afS[1][2]*afS[1][2]);
     afAxisLen[2] = sqrt(afS[2][0]*afS[2][0] + afS[2][1]*afS[2][1] + afS[2][2]*afS[2][2]);
-#endif
 }
 
 void cbPKT_SS_NOISE_BOUNDARY::GetRotationAngles(float afTheta[3]) const
 {
-    // TODO: must be implemented for non MSC
-#ifndef QT_APP
-    Vector3f major(afS[0]);
-    Vector3f minor_1(afS[1]);
-    Vector3f minor_2(afS[2]);
+    #ifdef WIN32
+        Vector3f major(afS[0]);
+        Vector3f minor_1(afS[1]);
+        Vector3f minor_2(afS[2]);
 
-    ::GetRotationAngles(major, minor_1, minor_2, afTheta);
-#endif
+        ::GetRotationAngles(major, minor_1, minor_2, afTheta);
+    #else
+        // TODO: must be implemented for non MSC
+    #endif
 }
 
 // Author & Date:   Jason Scott     23 Jan 2009
@@ -2614,7 +2612,7 @@ cbRESULT cbSSSetNoiseBoundaryByTheta(UINT32 chanIdx, const float afCentroid[3], 
     if ((chanIdx - 1) >= cbNUM_ANALOG_CHANS) return cbRESULT_INVALIDCHANNEL;
 
     // TODO: must be implemented for non MSC
-#ifndef QT_APP
+#ifdef WIN32
     // initialize the axes on the coordinate axes
     Vector3f major(afAxisLen[0], 0, 0);
     Vector3f minor_1(0, afAxisLen[1], 0);
