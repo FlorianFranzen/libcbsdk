@@ -1,10 +1,11 @@
 language: cpp
 
+dist: trusty
+sudo: false
+
 addons:
   apt:
-    sources:
-    - ubuntu-sdk-team
-    packages:
+   packages:
     - qtdeclarative5-dev
 
 script: cd Builds/LinuxMakefile/ && make
