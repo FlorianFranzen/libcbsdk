@@ -3,6 +3,8 @@
 libcerebus
 ==========
 
+**Currently not maintened or further developed. Project was not funded in the end**
+
 **WIP: Currently still depends on Qt5. This will hopfully change soon.**
 
 A C++ library that allows you to interact with Blackrock Microsystems neural signal processing hardware.
